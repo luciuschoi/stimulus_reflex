@@ -36,7 +36,7 @@
     "test": "yarn run mocha --require @babel/register --require jsdom-global/register --require esm ./javascript/test"
   },
   "peerDependencies": {
-    "stimulus": ">= 1.1"
+    "@hotwired/stimulus": ">= 3.0.1"
   },
   "dependencies": {
     "@rails/actioncable": ">= 6.0",
@@ -52,6 +52,6 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^8.0.1",
     "prettier-standard": "^16.4.1",
-    "stimulus": ">= 1.1"
+    "@hotwired/stimulus": ">= 3.0.1"
   }
 }
