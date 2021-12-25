@@ -1,4 +1,4 @@
-import { Controller } from 'stimulus'
+import { Controller } from '@hotwired/stimulus'
 import { dispatchLifecycleEvent } from './lifecycle'
 import { uuidv4, serializeForm } from './utils'
 import { beforeDOMUpdate, afterDOMUpdate, routeReflexEvent } from './callbacks'
